@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Second Chance Network</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Second Chance Network</h1>
+    <nav>
+      <a href="#reentry">For Returning Citizens</a>
+      <a href="#helpers">For Supporters</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="reentry" class="section">
+      <h2>Reentry Resources</h2>
+      <p>Welcome home. We’re here to help you get a fresh start. Here you’ll find job training, housing support, legal aid, and more.</p>
+      <ul>
+        <li><strong>Job Training:</strong> Programs to build your skills and get you working.</li>
+        <li><strong>Housing Assistance:</strong> Find safe, affordable places to live.</li>
+        <li><strong>ID & Documents:</strong> Help getting your ID, social security card, and more.</li>
+        <li><strong>Mental Health Services:</strong> Talk to someone who understands what you're going through.</li>
+        <li><strong>Mentorship:</strong> Connect with someone who has walked this path.</li>
+      </ul>
+    </section>
+
+    <section id="helpers" class="section alt">
+      <h2>Get Involved</h2>
+      <p>You can make a real difference. Support the reentry process and help reduce recidivism through direct action or donations.</p>
+      <ul>
+        <li><strong>Volunteer:</strong> Mentor, teach, or just be a supportive listener.</li>
+        <li><strong>Hire:</strong> Offer job opportunities to skilled, motivated individuals.</li>
+        <li><strong>Donate:</strong> Fund programs that provide housing, education, and legal support.</li>
+        <li><strong>Advocate:</strong> Support policy changes and reentry reform.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Second Chance Network. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0.2em 0;
+}
+
+nav a {
+  color: #ddd;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  margin-top: 1em;
+  border-radius: 5px;
+}
+
+.alt {
+  background: #eef5f6;
+}
+
+.section h2 {
+  color: #005a87;
+}
+
+ul {
+  line-height: 1.6;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
